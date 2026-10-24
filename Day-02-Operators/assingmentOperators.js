@@ -1,0 +1,15 @@
+let balance = 1000;
+console.log("Starting Balance:" + balance);
+console.log(`Starting Balance: ${balance}`);
+balance += 500;
+console.log(`After Deposit: ${balance}`);
+balance -= 200;
+console.log(`After Withdrawal: ${balance}`);
+balance *= 2;
+console.log(`After Doubling: ${balance}`);
+balance /= 2;
+console.log(`Final Blance:${balance}`);
+balance %= 300;
+console.log(`After Modulus:${balance}`);
+balance **= 2;
+console.log(`After Exponention:${balance}`);
